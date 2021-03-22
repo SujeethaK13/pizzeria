@@ -23,7 +23,7 @@ function add_item(){
         new_item="<section class='cards'>";
         for(var j=0;j<menu_list.length;j++){
 
-            new_item=new_item+'<div class="card">' +'<img src="images/pizzaImg.png"/>' + menu_list[j] + '</div>'
+            new_item=new_item+'<div class="card">' +'<img src="pizzaImg.png"/>' + menu_list[j] + '</div>'
         }
           new_item=new_item+"</section>"
           document.getElementById("addmenu_display").innerHTML = new_item;
